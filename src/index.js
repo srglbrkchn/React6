@@ -2,5 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 
+const customStyle = {
+    color: "grey",
+    fontSize: "13px",
+    fontFamily: "cursive",
+    border: "2px solid grey",
+    padding: "1rem"
+};
 
-ReactDOM.render(<h1 style= {{color: "red"}}>Hello World!</h1>, document.getElementById("root"));
+ReactDOM.render(<h1 style={customStyle}>Hello World!</h1>, document.getElementById("root"));
