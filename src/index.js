@@ -10,4 +10,6 @@ const customStyle = {
     padding: "1rem"
 };
 
+customStyle.color = "pink";
+
 ReactDOM.render(<h1 style={customStyle}>Hello World!</h1>, document.getElementById("root"));
